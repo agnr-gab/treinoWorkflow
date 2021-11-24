@@ -25,11 +25,16 @@ Enquanto, com um método não estático/método de instância,  é necessário i
 https://javabymarcao.wordpress.com/2012/09/27/teoria-diferenca-entre-metodos-estaticos-e-nao-estaticos/
 https://pt.stackoverflow.com/questions/54012/qual-a-fun%C3%A7%C3%A3o-de-um-m%C3%A9todo-est%C3%A1tico
 
+Um método estático pertence à classe e um método não estático pertence ao objeto de uma classe. Ou seja, um método não estático pode ser chamado apenas em um objeto de uma classe à qual ele pertence. Um método estático pode acessar apenas membros estáticos. Um método não estático pode acessar membros estáticos e não estáticos porque, no momento em que o método estático é chamado, a classe pode não ser instanciada (se for chamada na própria classe). No outro caso, um método não estático só pode ser chamado quando a classe já tiver sido instanciada. Um método estático é compartilhado por todas as instâncias da classe. Sempre que um método é chamado em C++/Java/C #, um argumento implícito (a referência 'this') é passado junto com/sem os outros parâmetros. No caso de uma chamada de método estático, a referência 'this' não é passada, pois os métodos estáticos pertencem a uma classe e, portanto, não possuem a referência 'this'.
+
 
 6) Por que métodos estáticos não interagem com atributos que não são estáticos?
 Métodos estáticos é um método que vive na classe. Então é um método que não pode usar nenhum atributo do objeto e geralmente é usado para fazer operações que não dependem de nenhum estado. 
 https://alvinalexander.com/blog/post/java/compiler-error-cannot-make-static-reference-to-non-static/
 https://cursos.alura.com.br/forum/topico-atributos-e-metodos-estaticos-38826
+
+Os métodos estáticos são métodos que não dependem de um objeto. Tais métodos são chamados sem que haja uma instância da classe que declara o método.
+Como o método estático não possui ligação com um objeto, então o método não pode usar variáveis de instância, que são variáveis de um objeto.
 
 
 7) Para que serve o @Override?
@@ -97,6 +102,7 @@ Para configurar o banco de dados e costumizar as mensagens de validações.
 
 27) Para que serve o @RequestMapping?
 -implementar o nome da URL
+Serve para manipulação de requisições. Um método mapeado com a anotação @RequestMapping deverá ter algum retorno que, por sua vez, será exibido ao usuário. Esse retorno pode ser de vários formatos: uma página de hipertexto, um arquivo (XML, JSON, JPEG, PDF), entre outros. 
 
 28) Para que serve o @PostMapping?
 -Mapea solicitações HTTP, cria/posta requisições no json.
