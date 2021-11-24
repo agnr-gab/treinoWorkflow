@@ -76,3 +76,9 @@ Object-Relational Mapping (ORM) mapeamento objeto-relacional. Geralmente é uma 
 26) Para que serve o application.properties?
 Para configurar o banco de dados e costumizar as mensagens de validações.
 27) Para que serve o @RequestMapping?
+-implementar o nome da URL
+28) Para que serve o @PostMapping?
+-Mapea solicitações HTTP, cria/posta requisições no json.
+29) Para que serve o @RequestBody?
+-Recebe informações no corpo da requisição
+30) O que é um Proxy Pattern e qual a camada que o representa?
