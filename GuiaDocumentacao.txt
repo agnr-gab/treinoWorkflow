@@ -41,7 +41,28 @@ Como o método estático não possui ligação com um objeto, então o método n
 Sobescrever métodos, ex: Classes que podem usar basicamente o mesmo método, aí usamos o usamos, para informar que estamos pegando aquele metodo semelhante de uma outra classe.
 
 8) O que significa SOLID?
-Pincipios de orientação a objeto para deixar o código limpo, separando responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
+São 5 acrónimos que norteiam o bom seguimento de um projeto em POO.
+S - Single Responsibility Principle (Princípio de Responsabilidade Única)
+Uma classe deve ter um, e somente um, motivo para mudar.
+Esse princípio declara que uma classe deve ser especializada em um único assunto e possuir apenas uma responsabilidade dentro do software, 
+ou seja, a classe deve ter uma única tarefa ou ação para executar.
+
+O - Open Closed Principle (Princípio de Aberto-Fechado)
+Objetos ou entidades devem estar abertos para extensão, mas fechados para modificações, ou seja, quando novos comportamentos e recursos 
+precisam ser adicionados no software devemos estender alterar o código fonte original.
+
+L  - Liskov Substitution Principle (Princípio da substituição de Liskov)
+Uma classe derivada deve ser substituível por sua classe base. O princípio da substituição de Liskov foi introduzido por Barbar Liskov 
+em sua conferência “Data abstraction” em 1987. A definição formal de Liskov diz que: Se para cada objeto  do tipo S há um objeto.
+
+I - Interface Segregation Principle (Princípio de Segregação da Interface) 
+Uma classe não deve ser forçada a implementar interfaces e métodos que não irão utilizar.
+Esse princípio basicamente diz que é melhor criar interfaces mais específicas ao invés de termos uma única interface genérica.
+
+D - Dependency Inversion Principle -
+Depende de abstrações e não de implementações.
+No contexto da programação orientada a objetos, é comum que as pessoas confundam a  Inversão de Dependência com a Injeção de Dependência, 
+porém são coisas distintas, mas que relacionam-se entre si com um propósito em comum, deixar o código desacoplado.
 
 9) Como montar um exemplo para explicar o S do SOLID?
 Responsabilidade única. Uma classe deve ter uma única responsabilidade, função, tarefa.
