@@ -126,7 +126,7 @@ Para configurar o banco de dados e costumizar as mensagens de validações.
 Serve para manipulação de requisições. Um método mapeado com a anotação @RequestMapping deverá ter algum retorno que, por sua vez, será exibido ao usuário. Esse retorno pode ser de vários formatos: uma página de hipertexto, um arquivo (XML, JSON, JPEG, PDF), entre outros. 
 
 28) Para que serve o @PostMapping?
--Mapea solicitações HTTP, cria/posta requisições no json. Maicon zoado.
+-CONFLITOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
 29) Para que serve o @RequestBody?
 -Recebe informações no corpo da requisição
