@@ -4,7 +4,6 @@ Guia Para ler Documentação.
 Composição é uma classe que se torna atributo de outra Ex: Uma televisão TEM controle?, então é composição, controle será atributo de Televisão.
 Herança, uma classe que se extende de outra. Ex: Funcionario É UMA  pessoa ? então fica assim : funcionario extends pessoa, herdando os seus atributos.
 
-aaaaa
 
 2) Qual é a diferença entre variáveis e atributos?
 Atributos são características de uma classe
@@ -16,14 +15,20 @@ Public, private, protected e padrão.
 Para estabelecer contratos entre as classes, especificar os métodos que precisam ser criados e os obrigar a serem criados.
 
 5) Qual diferença entre métodos estáticos e os métodos não estáticos?
+Resposta:
+Um método estático só é possível acessar outros métodos ou variáveis do tipo estático,  e para chamá-lo, 
+basta chamar a classe e colocar um ponto e em seguida inserir o nome do método.
+Exemplo: exemplo.exporExemplo();
+Enquanto, com um método não estático/método de instância,  é necessário instanciar a classe para usar o método.
 
-aaaaa
-bbbbbbccccc
-
-nenhuma 
+https://javabymarcao.wordpress.com/2012/09/27/teoria-diferenca-entre-metodos-estaticos-e-nao-estaticos/
+https://pt.stackoverflow.com/questions/54012/qual-a-fun%C3%A7%C3%A3o-de-um-m%C3%A9todo-est%C3%A1tico
 
 6) Por que métodos estáticos não interagem com atributos que não são estáticos?
 por que sim
+Métodos estáticos é um método que vive na classe. Então é um método que não pode usar nenhum atributo do objeto e geralmente é usado para fazer operações que não dependem de nenhum estado. 
+https://alvinalexander.com/blog/post/java/compiler-error-cannot-make-static-reference-to-non-static/
+https://cursos.alura.com.br/forum/topico-atributos-e-metodos-estaticos-38826
 
 
 7) Para que serve o @Override?
