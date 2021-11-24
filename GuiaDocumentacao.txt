@@ -1,0 +1,78 @@
+Guia Para ler Documentação.
+
+1) Qual a diferença entre Composição e Herança?
+Composição é uma classe que se torna atributo de outra Ex: Uma televisão TEM controle?, então é composição, controle será atributo de Televisão.
+Herança, uma classe que se extende de outra. Ex: Funcionario É UMA  pessoa ? então fica assim : funcionario extends pessoa, herdando os seus atributos.
+
+2) Qual é a diferença entre variáveis e atributos?
+Atributos são características de uma classe
+Variáveis são espaços de memória para armazenamento de dados, nomeados por identificador do tipo int, string, double. Quase um atributo se podemos assim dizer.
+3) Quais são os modificadores de acesso?
+Public, private, protected e padrão.
+
+4) Para que serve uma Interface?
+Para estabelecer contratos entre as classes, especificar os métodos que precisam ser criados e os obrigar a serem criados.
+
+5) Qual diferença entre métodos estáticos e os métodos não estáticos?
+
+
+6) Por que métodos estáticos não interagem com atributos que não são estáticos?
+
+
+7) Para que serve o @Override?
+Sobescrever métodos, ex: Classes que podem usar basicamente o mesmo método, aí usamos o usamos, para informar que estamos pegando aquele metodo semelhante de uma outra classe.
+
+8) O que significa SOLID?
+Pincipios de orientação a objeto para deixar o código limpo, separando responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
+
+9) Como montar um exemplo para explicar o S do SOLID?
+Responsabilidade única. Uma classe deve ter uma única responsabilidade, função, tarefa.
+
+10) Quais são as camadas do Spring Boot quando vamos trabalhar com API REST?
+Service, Controller, Repository, Advice
+
+11) O que é injeção de dependência?
+Quando chamamos uma classe dentro de outra sem precisar instancia-la, ex: a repository na service, service na controller, aí usamos o @Autowired.
+
+
+12) Injeção de dependência faz parte do SOLID?
+A Inversão de Dependência é um princípio (Conceito) e a Injeção de Dependência é um padrão de projeto (Design Pattern).
+
+13) Qual camada é responsável em verificar se a requisição está correta ou não?
+Controller
+
+14) Quais são as partes de uma requisição HTTP?
+Request URL, Method, Body, Headers
+
+15) Quais são as partes de uma resposta HTTP?
+IP response, Status, Body, Headers
+
+16) O que é um endpoint?
+Endereço Web (URL) - Texto que digitamos para encontrar algum site, página ou serviço.
+
+17) O que significa quando a Aplicação responde o http status code 405?
+405 Method Not Allowed - O método de solicitação é conhecido pelo servidor, mas foi desativado e não pode ser usado. Os dois métodos obrigatórios, GET e HEAD, nunca devem ser desabilitados e não devem retornar este código de erro.
+
+18) Quem é responsável em controlar as exceções que saem da aplicação?
+Controller Advice. Exception
+
+19) Uma DTO serve para que?
+Transferência de dados que transita entre as camadas de negócio. Ao invés de ficar transportando uma renca de objetos um de cada vez, vc coloca todos os objetos (ou os dados dele) em uma objeto só, e passa para o servidor. Então vc perde menos tempo com o transporte de dados.
+Ao invés de acessar um servidor 3 vezes, vc acessou 1 só. É para isso quer serve um DTO. Serve para quando se precisa fazer muitos acessos.
+20) Para que serve as models?
+Modelo de dados, onde se faz a tabela, entidade.
+21) Como consigo relacionar 2 tabelas em um banco de dados relacional?
+Fazendo relacionamentos, sendo eles oneToMany, ManyToOne ou ManyToMany.
+Através da chave primária, que será a FK na tabela onde será feito o relacionamento.
+22) Por que é importante existir um usuário com acesso limitado ao SGBD para aplicação?
+Para não fazer coisa que não devia, tipo: apagar o banco de dados.
+23) Qual o nome da camada responsável em se comunicar com o banco de dados?
+Repository
+ 
+24) O que é Hibernate?
+é o framework para persistência de dados.
+25) O que é ORM?
+Object-Relational Mapping (ORM) mapeamento objeto-relacional. Geralmente é uma biblioteca ou framework que ajuda no mapeamento e uso do banco de dados.
+26) Para que serve o application.properties?
+Para configurar o banco de dados e costumizar as mensagens de validações.
+27) Para que serve o @RequestMapping?
