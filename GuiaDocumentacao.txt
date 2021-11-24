@@ -8,6 +8,7 @@ Herança, uma classe que se extende de outra. Ex: Funcionario É UMA  pessoa ? e
 2) Qual é a diferença entre variáveis e atributos?
 Atributos são características de uma classe
 Variáveis são espaços de memória para armazenamento de dados, nomeados por identificador do tipo int, string, double. Quase um atributo se podemos assim dizer.
+
 3) Quais são os modificadores de acesso?
 Public, private, protected e padrão.
 
@@ -24,8 +25,8 @@ Enquanto, com um método não estático/método de instância,  é necessário i
 https://javabymarcao.wordpress.com/2012/09/27/teoria-diferenca-entre-metodos-estaticos-e-nao-estaticos/
 https://pt.stackoverflow.com/questions/54012/qual-a-fun%C3%A7%C3%A3o-de-um-m%C3%A9todo-est%C3%A1tico
 
+
 6) Por que métodos estáticos não interagem com atributos que não são estáticos?
-por que sim
 Métodos estáticos é um método que vive na classe. Então é um método que não pode usar nenhum atributo do objeto e geralmente é usado para fazer operações que não dependem de nenhum estado. 
 https://alvinalexander.com/blog/post/java/compiler-error-cannot-make-static-reference-to-non-static/
 https://cursos.alura.com.br/forum/topico-atributos-e-metodos-estaticos-38826
@@ -69,28 +70,38 @@ Endereço Web (URL) - Texto que digitamos para encontrar algum site, página ou 
 Controller Advice. Exception
 
 19) Uma DTO serve para que?
-Transferência de dados que transita entre as camadas de negócio. Ao invés de ficar transportando uma renca de objetos um de cada vez, vc coloca todos os objetos (ou os dados dele) em uma objeto só, e passa para o servidor. Então vc perde menos tempo com o transporte de dados.
+-Transferência de dados que transita entre as camadas de negócio. Ao invés de ficar transportando uma renca de objetos um de cada vez, vc coloca todos os objetos (ou os dados dele) em uma objeto só, e passa para o servidor. Então vc perde menos tempo com o transporte de dados.
 Ao invés de acessar um servidor 3 vezes, vc acessou 1 só. É para isso quer serve um DTO. Serve para quando se precisa fazer muitos acessos.
+
 20) Para que serve as models?
 Modelo de dados, onde se faz a tabela, entidade.
+
 21) Como consigo relacionar 2 tabelas em um banco de dados relacional?
 Fazendo relacionamentos, sendo eles oneToMany, ManyToOne ou ManyToMany.
 Através da chave primária, que será a FK na tabela onde será feito o relacionamento.
+
 22) Por que é importante existir um usuário com acesso limitado ao SGBD para aplicação?
 Para não fazer coisa que não devia, tipo: apagar o banco de dados.
+
 23) Qual o nome da camada responsável em se comunicar com o banco de dados?
 Repository
  
 24) O que é Hibernate?
 é o framework para persistência de dados.
+
 25) O que é ORM?
 Object-Relational Mapping (ORM) mapeamento objeto-relacional. Geralmente é uma biblioteca ou framework que ajuda no mapeamento e uso do banco de dados.
+
 26) Para que serve o application.properties?
 Para configurar o banco de dados e costumizar as mensagens de validações.
+
 27) Para que serve o @RequestMapping?
 -implementar o nome da URL
+
 28) Para que serve o @PostMapping?
 -Mapea solicitações HTTP, cria/posta requisições no json.
+
 29) Para que serve o @RequestBody?
 -Recebe informações no corpo da requisição
+
 30) O que é um Proxy Pattern e qual a camada que o representa?
