@@ -4,7 +4,6 @@ Guia Para ler Documentação.
 Composição é uma classe que se torna atributo de outra Ex: Uma televisão TEM controle?, então é composição, controle será atributo de Televisão.
 Herança, uma classe que se extende de outra. Ex: Funcionario É UMA  pessoa ? então fica assim : funcionario extends pessoa, herdando os seus atributos.
 
-aaaaa
 
 2) Qual é a diferença entre variáveis e atributos?
 Atributos são características de uma classe
