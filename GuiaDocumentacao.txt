@@ -25,6 +25,10 @@ https://javabymarcao.wordpress.com/2012/09/27/teoria-diferenca-entre-metodos-est
 https://pt.stackoverflow.com/questions/54012/qual-a-fun%C3%A7%C3%A3o-de-um-m%C3%A9todo-est%C3%A1tico
 
 6) Por que métodos estáticos não interagem com atributos que não são estáticos?
+por que sim
+Métodos estáticos é um método que vive na classe. Então é um método que não pode usar nenhum atributo do objeto e geralmente é usado para fazer operações que não dependem de nenhum estado. 
+https://alvinalexander.com/blog/post/java/compiler-error-cannot-make-static-reference-to-non-static/
+https://cursos.alura.com.br/forum/topico-atributos-e-metodos-estaticos-38826
 
 
 7) Para que serve o @Override?
