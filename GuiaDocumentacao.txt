@@ -17,6 +17,7 @@ Para estabelecer contratos entre as classes, especificar os métodos que precisa
 
 
 6) Por que métodos estáticos não interagem com atributos que não são estáticos?
+por que sim
 
 
 7) Para que serve o @Override?
